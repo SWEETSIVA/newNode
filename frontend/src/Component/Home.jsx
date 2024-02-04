@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import axiox from "axios"
 
 function Home() {
-  const backendURL = "http://futuretechtenkasi.info:4000/std"
+  const backendURL = "http://13.53.158.41:4000/std"
   const [formData, setFormData] = useState({
     username: "",
     mail: "",
